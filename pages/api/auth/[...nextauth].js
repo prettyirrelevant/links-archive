@@ -1,7 +1,7 @@
 import NextAuth from "next-auth";
 import Providers from "next-auth/providers";
 import Adapters from "next-auth/adapters";
-import prisma from "../../prisma/client";
+import prisma from "../../../prisma/client";
 
 const options = {
   providers: [
