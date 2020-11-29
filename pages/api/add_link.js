@@ -21,7 +21,7 @@ export default async function handler(req, res) {
     if (response.data.result.status === "OK") {
       // get currently logged in user
       const user = await getSession({ req });
-      if (!user) return res.status(403).json({ message: "Unauthourised" });
+      if (!user) return res.status(403).json({ message: "Unauthorised" });
 
       // create new `Link` instance
       const link = await prisma.link.create({
