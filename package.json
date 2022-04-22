@@ -16,7 +16,7 @@
     "@prisma/client": "2.12.1",
     "axios": "^0.21.1",
     "next": "10.0.3",
-    "next-auth": "^3.1.0",
+    "next-auth": "^4.3.2",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-toast-notifications": "^2.4.0",
